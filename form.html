@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Обратная связь из формы на e-mail</title>
+<link rel="stylesheet" href="stylesheets/default.css">
+</head>
+<body>
+    <div class="container">
+    <!-- #feedback -->
+        <div id="feedback">
+        <!-- .head -->
+        <div class="head">
+            <h3>Форма обратной связи</h3>
+            <p>Можете оставить свой отзыв через форму обратной связи!</p>
+        </div>
+        <!-- end .head -->
+        <!-- form -->
+        <form action="meridian65.github.io" id="form" method="post" name="form">
+            <input name="vname" placeholder="Ваше имя" type="text" value="">
+            <input name="vemail" placeholder="Ваш Email" type="text" value="">
+            <input name="sub" placeholder="Тема" type="text" value="">
+            <label>Ваше предложение или отзыв</label>
+            <textarea name="msg" placeholder="Введите текст сообщения..."></textarea>
+            <input id="send" name="submit" type="submit" value="Отправить сообщение">
+        </form>
+        <!-- end form -->
+        <h3><?php include "action_form.php"?></h3>
+        </div>
+    <!-- end #feedback -->
+    </div>
+</body>
+</html>
