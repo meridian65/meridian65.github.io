@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: http://meridian65.github.io/sitemap.xml
